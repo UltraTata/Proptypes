@@ -1,3 +1,5 @@
+import DiscountSelection from "./DiscountSelection.js";
+
 export default function FeatureSelection(){
     return(
         <section className="feature_section  layout_padding">
@@ -134,6 +136,7 @@ export default function FeatureSelection(){
                 </div>
             </div>
             </div>
+            <DiscountSelection/>
         </section>
 
     );
