@@ -1,9 +1,15 @@
+import { useContext } from "react";
+import { Context } from "../context.js";
 import Products from "./Products.js";
 
 export default function Home() {
+  const {noQuantity} = useContext(Context);
   return (
     <>
       <section>
+        {
+          noQuantity ? <div class="alert alert-warning" role="alert">You ordered 0 quanity.</div> : <></>
+        }
         <div class="col-6">
           <Products/>
         </div>

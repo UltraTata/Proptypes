@@ -1,5 +1,6 @@
 import { React, useState, useContext } from "react";
 import { Context } from "../context.js";
+import PropTypes from 'prop-types';
 
 export default function ProductCard({product}){
     const [quantity, setQuantity] = useState(0);
@@ -27,3 +28,17 @@ export default function ProductCard({product}){
       </div>
     );
 }
+
+ProductCard.propTypes = {
+    product: PropTypes.shape(
+        {
+            "name": PropTypes.string,
+            "description": PropTypes.string,
+            "img": PropTypes.string,
+            "price": PropTypes.number,
+            "paymentMethods": PropTypes.array,
+            "PaymentScheme": PropTypes.array,
+            "stock": PropTypes.number
+        }
+    )
+};

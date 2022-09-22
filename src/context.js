@@ -3,23 +3,30 @@ import {React, createContext, useState} from "react";
 export const Context = createContext();
 
 export function ContextProvider(props){
+    const [noQuantity, setNoQuantity] = useState(false);
     const [carrito, setCarrito] = useState([]);
     const addCarrito = (item, quantity) => {
-        let newArray = [];
-        carrito.map(
-            (element) => {
-                newArray.push(element);
-            }
-        );
-        let newObject = structuredClone(item);
-        newObject.quantity = quantity;
-        newArray.push(newObject);
+        if(quantity > 0){
+            let newArray = [];
+            carrito.map(
+                (element) => {
+                    newArray.push(element);
+                }
+            );
+            let newObject = structuredClone(item);
+            newObject.quantity = quantity;
+            newArray.push(newObject);
+            setCarrito(newArray);
+            window.location.href = "/Carrito";
+        }
     }
     return (
         <Context.Provider
             value={{
                 carrito,
-                addCarrito
+                addCarrito,
+                noQuantity,
+                setNoQuantity
             }}
         >{props.children}</Context.Provider>
     )
