@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Medical kit from Team Fortress 2",
+        "description": "Used by the Doctor to cure allies.",
+        "img": "https://csg.tinkercad.com/things/3tX1RUQU2uw/t725.png?rev=1520457290513489278&s=&v=1",
+        "price": "25.10",
+        "paymentMethods": ["Cash","PayPal","Deep Web"],
+        "PaymentScheme": ["Buy","3 dues"],
+        "stock": 10
+    }
+    ,{
+        "name": "Doctor from Team Fortress 2",
+        "description": "Uses medical kits to cure allies.",
+        "img": "https://wiki.teamfortress.com/w/images/thumb/4/47/Medicine_Manpurse.png/250px-Medicine_Manpurse.png",
+        "price": "10.60",
+        "paymentMethods": ["Cash","PayPal","Deep Web"],
+        "PaymentScheme": ["Rent"],
+        "stock": 3
+    },
+    {
+        "name": "Health potion from Diablo II",
+        "description": "Magic potion that cures lots of HP. Kosher certificate.",
+        "img": "https://media.sketchfab.com/models/af6fe82cddfb4e319354879021762027/thumbnails/c46c7581910f421fbc65909d00ca6944/034fd697c576405c99389301dc05dc53.jpeg",
+        "price": "50",
+        "paymentMethods": ["Cash","Etherium NFT","Etherium","Mercado Pago","MasterCard"],
+        "PaymentScheme": ["Buy","3 dues"],
+        "stock": 302
+    },
+    {
+        "name": "Double effect potion from Diablo II",
+        "description": "Magic potion that regenerate both HP and Mana.",
+        "img": "https://media.sketchfab.com/models/c29531095aa24d7399fcc777e821e90b/thumbnails/6a244c364fa24424ae56305e2fb79ad0/3fa508b4e69c46c0a0d1dc947097b8c1.jpeg",
+        "price": "67.33",
+        "paymentMethods": [],
+        "PaymentScheme": [],
+        "stock": 65
+    },
+    {
+        "name": "Mana potion from Diablo II (Pack x5)",
+        "description": "Magic potion that regenerate your Mana. Made in India. Origin and quality certificate given by the IngSoc (with Big Brother's sign 😮).",
+        "img": "https://external-preview.redd.it/8HI4N3vgOXx7iPXMvJPpXQ0uPN0hVfluIyrYP0AgLv8.jpg?auto=webp&s=4c1989fb4b6c4efa91eb0e57e73871aca0b74f98",
+        "price": "340",
+        "paymentMethods": ["Cash","Etherium NFT"],
+        "PaymentScheme": ["Buy","3 dues","6 dues","9 dues","12 dues"],
+        "stock": 109
+    },
+    {
+        "name": "Kit 4 basic potion",
+        "description": "Basic kit of 4 potions for beginners.",
+        "img": "https://i.etsystatic.com/30349159/r/il/6152f2/3285842233/il_fullxfull.3285842233_nz0g.jpg",
+        "price": "5.5",
+        "paymentMethods": ["Cash","MasterCard","Visa","Visa Debit"],
+        "PaymentScheme": ["Buy"],
+        "stock": 3102
+    },
+    {
+        "name": "Mashroom from Mario World",
+        "description": "Mashroom that cures dwarfism",
+        "img": "https://www.pngitem.com/pimgs/m/693-6934171_mario-green-mushroom-pixel-png-download-transparent-png.png",
+        "price": "100",
+        "paymentMethods": ["Cash","Etherium NFT","MasterCard","Visa","Visa Debit"],
+        "PaymentScheme": ["Buy"],
+        "stock": 32
+    },
+    {
+        "name": "Fire flower from Mario World",
+        "description": "Flower that makes you red and spilt fire 🔥.",
+        "img": "https://p.kindpng.com/picc/s/706-7063342_fire-flower-1-mario-pixel-art-hd-png.png",
+        "price": "300",
+        "paymentMethods": ["Cash"],
+        "PaymentScheme": ["Buy"],
+        "stock": 60
+    }
+]

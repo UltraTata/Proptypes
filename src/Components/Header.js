@@ -24,13 +24,10 @@ export default function Header(){
                         <a className="nav-link" href="/About"> About </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/MnH"> Medicine </a>
+                        <a className="nav-link" href="/Feature"> Payment methods </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/Feature"> Online Buy </a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/Client"> Our costumers' opinions </a>
+                        <a className="nav-link" href="/Client"> Reviews </a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="/Contact">Contact us</a>
