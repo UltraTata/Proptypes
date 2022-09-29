@@ -1,16 +1,10 @@
-import { useContext } from "react";
-import { Context } from "../context.js";
 import Products from "./Products.js";
 
 export default function Home() {
-  const {noQuantity} = useContext(Context);
   return (
     <>
       <section class="flex-row d-flex h-100 overflow-hidden justify-content-around">
         <div class="d-flex flex-column justify-content-around p-2">
-          {
-            noQuantity ? <div class="p-2 alert alert-warning" role="alert">You ordered 0 quanity.</div> : <></>
-          }
           <div class="overflow-hidden">
             <Products/>
           </div>
