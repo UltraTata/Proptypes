@@ -7,6 +7,7 @@ export function ContextProvider(props){
     const [carrito, setCarrito] = useState([]);
     const addCarrito = (item, quantity) => {
         if(quantity > 0){
+            setNoQuantity(false);
             let newArray = [];
             carrito.map(
                 (element) => {
@@ -18,7 +19,21 @@ export function ContextProvider(props){
             newArray.push(newObject);
             setCarrito(newArray);
             window.location.href = "/Carrito";
+        }else{
+            setNoQuantity(true);
         }
+    }
+    const removeFromCarrito = (item) => {
+        let newArray = [];
+        carrito.map(
+            (element) => {
+                if(element != item){
+                    newArray.push(element);
+                }
+            }
+        );
+        setCarrito(newArray);
+        window.location.href = "/Carrito";
     }
     return (
         <Context.Provider

@@ -2,6 +2,8 @@ import '../CSS/App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from "./Home.js";
 import FeatureSelection from "./FeatureSelection.js";
+import Products from "./Products.js";
+import Carrito from "./Carrito.js";
 import About from "./About.js";
 import Client from "./Client.js";
 import Contact from "./Contact.js";
@@ -19,6 +21,8 @@ export default function App() {
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Home/>} />
+              <Route path="/Products" element={<Products/>} />
+              <Route path="/Carrito" element={<Carrito/>} />
               <Route path="/Feature" element={<FeatureSelection/>} />
               <Route path="/About" element={<About/>} />
               <Route path="/Client" element={<Client/>} />

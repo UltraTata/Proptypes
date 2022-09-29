@@ -51,9 +51,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(../images/final\ bg.jpg);
+  background-repeat: repeat;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.btn-product-card {
+  background-color: var(--product-card-bg);
+  border-color: var(--product-card-main);
+  color: var(--product-card-main);
+}
+
+.btn-product-card:hover {
+  background-color: var(--product-card-main);
+  border-color: var(--product-card-bg);
+  color: var(--product-card-bg);
 }
