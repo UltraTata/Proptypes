@@ -7,7 +7,7 @@ export default function ProductCard({product}){
     const {addCarrito, removeFromCarrito} = useContext(Context);
     return(
         <div 
-            class="card"
+            class="card m-3"
             style={
                 {
                     backgroundColor:"var(--product-card-bg)",
@@ -19,10 +19,10 @@ export default function ProductCard({product}){
         >
         <img class="card-img-top" src={product.img} alt="Product image"/>
         <div class="card-body">
-          <h5 class="card-title">{product.name}</h5>
-          <p class="card-text">{product.description}</p>
-          <p class="card-text">
-            Quantity: 
+            <h5 class="card-title">{product.name}</h5>
+            <p class="card-text">{product.description}</p>
+            <p class="card-text">
+            Quantity:  
             
             {
                 product.quantity === undefined
@@ -56,7 +56,7 @@ export default function ProductCard({product}){
         }
         
         </div>
-      </div>
+    </div>
     );
 }
 

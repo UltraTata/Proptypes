@@ -7,7 +7,7 @@ export default function Header(){
             <nav className="navbar navbar-expand-lg custom_nav-container pt-3 align-middle">
                 <a className="navbar-brand" href="/">
                     <img src="images/logo.png" alt=""/>
-                    <span>Medion</span>
+                    <span>Medical Shop</span>
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,16 +33,6 @@ export default function Header(){
                         <a className="nav-link" href="/Contact">Contact us</a>
                     </li>
                     </ul>
-                    <form className="form-inline ">
-                    <input type="search" placeholder="Search"/>
-                    <button className="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-                    </form>
-                    <div className="login_btn-contanier ml-0 ml-lg-5">
-                    <a href="">
-                        <img src="images/user.png" alt=""/>
-                        <span>Login</span>
-                    </a>
-                    </div>
                 </div>
                 </div>
 

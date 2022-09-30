@@ -4,7 +4,7 @@ import products from "../JSON/products.json";
 import ProductCard from "./ProductCard.js";
 
 export default function Products(){
-    const {noQuantity} = useContext(Context);
+    const {checkProducts, noQuantity} = useContext(Context);
     return(
       <div class="p-3">
         {
@@ -13,7 +13,7 @@ export default function Products(){
         <div class="card-columns">
           
           {
-            products.map(
+            checkProducts(products).map(
               (product) => <ProductCard product={product}/>
             )
           }
